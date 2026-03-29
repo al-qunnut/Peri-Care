@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 import { dataInsights } from './CompJav'
 
 const Data = () => {
@@ -35,9 +35,7 @@ const Data = () => {
             Discover Your Support Network and Connect with Fellow Moms in Our Community
           </h2>
           <button className='bg-blue-950 text-white uppercase px-8 py-2 rounded-2xl'>
-            <a>
-              Join the Community
-            </a>
+            <Link to='/Community'>Join the Community</Link>
           </button>
         </div>
       </div>

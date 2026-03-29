@@ -1,4 +1,3 @@
-import React from 'react'
 import Emily from '../assets/Emily.png'
 import Maya from '../assets/Maya.png'
 

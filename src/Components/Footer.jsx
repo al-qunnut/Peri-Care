@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from '../assets/logo.png'
 import { navLinks } from './CompJav';
 import { Link } from 'react-router-dom';
@@ -30,9 +30,7 @@ const Footer = () => {
             <p>Building resilience, one family at a time.</p>
             <button className='bg-blue-400 text-blue-950 p-3 
             px-8 rounded-full font-semibold hover:text-blue-600 hover:bg-blue-950 my-2'>
-              <a href='../Pages/Support.jsx'>
-                Get Support
-              </a>
+              <Link to='/Support'>Get Support</Link>
             </button>
            </div>
            
@@ -46,9 +44,9 @@ const Footer = () => {
           <h2> Discover Your Support Network and Connect with Fellow Moms in Our Community</h2>
            <button className='bg-blue-950 text-blue-400 py-3 text-xl
             px-5 rounded-full font-semibold hover:text-blue-950 hover:bg-blue-400 my-2'>
-            <a href='../Pages/Community.jsx'>
+            <Link to='/Community'>
               Join Our Community
-            </a>
+            </Link>
            </button>
            <div className="flex gap-2  justify-between my-2">
             <a href='https://www.facebook.com'>

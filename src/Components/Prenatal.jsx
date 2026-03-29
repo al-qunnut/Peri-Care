@@ -1,4 +1,3 @@
-import React from 'react'
 import {details} from './CompJav.js'
 
 const Prenatal = () => {

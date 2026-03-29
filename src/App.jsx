@@ -1,4 +1,3 @@
-import React from 'react'
 import Home from '../src/Components/Home.jsx'
 import Prenatal from './Components/Prenatal.jsx'
 import Data from './Components/Data.jsx'

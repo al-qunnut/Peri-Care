@@ -1,4 +1,5 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom'
 import Navigation from '../Components/Navigation.jsx'
 
 const Home = () => {
@@ -12,9 +13,9 @@ const Home = () => {
            <p className='text-blue-500 text-2xl md:text-3xl py-2'>Building resilience, one family at a time.</p>
            <button className='bg-blue-950 text-blue-400 p-3 
             px-8 rounded-full font-semibold hover:text-blue-950 hover:bg-blue-500'>
-              <a href='../Pages/Support.jsx'>
+              <Link to='/Support'>
                 Get Support
-              </a>
+              </Link>
            </button>
          </div>
          </div>
